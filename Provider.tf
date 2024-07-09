@@ -1,6 +1,4 @@
 provider "aws" {
-    access_key = 
-    secret_key = 
-    #profile = "default"
-    region = "us-east-1"
+  profile = "lionel"
+  region  = var.region
 }
