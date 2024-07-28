@@ -1,4 +1,4 @@
 provider "aws" {
-  profile = "lionel"
+  profile = "terraform"
   region  = var.region
 }
