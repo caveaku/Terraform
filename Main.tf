@@ -1,3 +1,9 @@
+provider "aws" {
+  region = "us-east-1" #your-aws-region"  # Replace with your AWS region
+  profile = "sean"
+}
+
+
 resource "aws_instance" "dev" {
   ami               = var.ami
   instance_type     = var.instance-type
